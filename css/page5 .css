@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+}
+h1 , h2 ,h3{
+    font-family: 'Pathway Gothic One', sans-serif;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    color: grey;
+}
+/*start of section1*/
+.sec1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.sec1 .photo{
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+}
+.sec1 .ic{
+    display: none;
+}
+.sec1 .link {
+    display: block;
+}
+.sec1 .link a{
+    color: black;
+    padding-right: 20px;
+}
+.sec1 .link a:hover{
+    color: blue;
+}
+.sec1 .icon i{
+    padding-right: 20px;
+}
+ .sec1 .icon button{
+    border: 1px solid #909090;
+    border-radius: 20px;
+    font-weight: bolder;
+    width: 115px;
+    height: 40px;
+}
+.sec1 .icon button:hover{
+    background-color: brown;
+}
+/*end of section1*/
+
+/*start of section2*/
+.sec2{
+    background-color: #e9e9e9;
+    height: 50vh;
+}
+.sec2 .cat{
+    text-align: center;
+    padding-top: 7%;
+}
+.sec2 .a{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.sec2 .cat h1{
+    font-size: 50px;
+}
+.sec2 .cat .a a{
+    color: grey;
+    font-family: 'Roboto', sans-serif;
+}
+.sec2 .cat .a a:hover{
+    color: blue;
+}
+/*end of section2*/
+
+/*start of section3*/
+.sec3{
+    background-color: white;
+    border: 1px solid #e9e9e9;
+    width: 65%;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2,48%);
+    margin-left: 15%;
+    margin-top: 7%;
+}
+/*left*/
+.sec3 .left{
+    background-color: rgb(60, 60, 241);
+    color: white;
+    padding-top: 35%;
+    line-height: 25px;
+    text-align: center;
+}
+.sec3 .left a{
+    color: white;
+}
+.sec3 .left .a1{
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 25px;
+}
+.sec3 .left p{
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.sec3 .left .a1:hover{
+    color: black;
+}
+.sec3 .left .a2{
+    border: 1px solid white;
+    border-radius: 30px;
+    width: 45%;
+    height: 5vh;
+    padding-top: 8px;
+}
+.sec3 .left .a2:hover{
+    background-color: red;
+}
+/*right*/
+.sec3 .right{
+    padding-top: 15%;
+    padding-left: 15%;
+}
+.sec3 .right h1{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.sec3 .right .ri{
+    line-height: 55px;
+    color: grey;
+    font-family: 'Roboto', sans-serif;
+}
+.sec3 .right .ri input:not(#check){
+    width: 90%;
+    height: 5vh;
+    border: none;
+    border-bottom: 1px solid grey;
+    padding-left: 10px;
+}
+.sec3 .right .ri label{
+    padding-left: 10px;
+}
+.sec3 .right .ri .reg{
+    background-color: rgb(196, 30, 30);
+    color: white;
+    border: 1px solid rgb(196, 30, 30);
+    width: 90%;
+    height: 7vh;
+    text-align: center;
+    margin-top: 10px;
+}
+.sec3 .right .ri .reg:hover{
+    background-color: black;
+}
+.sec3 .right .ri a:hover{
+    color: red;
+}
+/*end of section3*/
+
+/*start of section4*/
+.sec4{
+    background-color: rgb(10, 10, 70);
+    height: 90vh;
+    margin-top: 300px;
+    position: relative;
+}
+.sec4 .b{
+    background-color: white;
+    border: 1px solid #e9e9e9;
+    border-radius: 7px;
+    width: 70%;
+    height: 45vh;
+    margin-left: 180px;
+    position: absolute;
+    top: -230px;
+}
+.sec4 .b div{
+    margin-left: 270px;
+    margin-top: 60px;
+}
+.sec4 .b h1{
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 45px;
+}
+.sec4 .b p{
+    font-family: 'Roboto', sans-serif;
+    color: grey;
+    padding-top: 10px;
+}
+.sec4 .b input{
+    margin-top: 40px;
+}
+.sec4 .b .mail{
+    margin-top: 10px;
+    border: 1px solid #e9e9e9;
+    width: 41%;
+    height: 40px;
+    border-radius: 20px;
+}
+.sec4 .b .sub{
+    width: 23%;
+    height: 45px;
+    background-color: blue;
+    border: 1px solid blue;
+    color: white;
+    border-radius: 25px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 10px;
+}
+.sec4 .b .mail::placeholder{
+    padding-left: 15px;
+}
+.sec4 .b .sub:hover{
+    background-color: red;
+}
+/*sec4 .c*/  /*div3*/
+.sec4 .c{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 150px;
+    margin-left: 50px;
+}
+.sec4 .c .div3 h1{
+    font-family: 'Pathway Gothic One', sans-serif;
+    color: white;
+    font-size: 35px;
+}
+.sec4 .c .div3 p{
+    color: grey;
+    font-size: 17px;
+    padding-top: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+/*div4*/
+.sec4 .c .div4{
+    padding-top: 5px;
+}
+.sec4 .c .div4 h2{
+    font-family: 'Pathway Gothic One', sans-serif;
+    color: white;
+    font-size: 25px;
+}
+.sec4 .c .div4 ul{
+    list-style-type: none;
+}
+.sec4 .c .div4 ul li{
+    padding-top: 15px;
+}
+.sec4 .c .div4 ul li a{
+    color: grey;
+}
+.sec4 .c .div4 ul li a:hover{
+    color: red;
+}
+/*div5*/
+.sec4 .c .div5 {
+    padding-top: 5px;
+}
+.sec4 .c .div5 h2{
+    color: white;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 25px;
+}
+.sec4 .c .div5 div{
+    display: grid;
+    grid-template-columns: repeat(2,55%);
+    row-gap: 10px;
+    padding-top: 20px;
+}
+/*div6*/
+.sec4 .c .div6{
+    padding-top: 5px;
+}
+.sec4 .c .div6 h2{
+    color: white;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 25px;
+}
+.sec4 .c .div6 div{
+    padding-top: 15px;
+} 
+.sec4 .c .div6 a{
+    padding-top: 10px;
+    color: grey;
+}
+.sec4 .c .div6 h3{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+#i3{
+    color: blue;
+    font-size: 26px;
+}
+.sec4 .c .div6 a:hover{
+    color: red;
+}
+/*footer*/
+.sec4 footer{
+    color: white;
+    background-color: rgb(18, 18, 102);
+    margin-top: 53px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding-top: 40px;
+}
+.sec4 footer p{
+    display: inline;
+}
+.sec4 footer .color{
+    color: blue;
+}
+/*end of section4*/
